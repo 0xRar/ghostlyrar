@@ -35,6 +35,7 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
@@ -42,3 +43,13 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  
+  # Line Numbers
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+

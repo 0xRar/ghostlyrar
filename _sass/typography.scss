@@ -2,10 +2,13 @@
 
 .content {
     * {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     tr, td {
         background: $bg;
+    }
+    a {
+        color: $accent;
     }
     a:hover {
         text-decoration: underline;

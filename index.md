@@ -4,7 +4,6 @@ layout: default
 
 ## About Me
 
-<!-- <img draggable=false class="profile-picture" src="sherlock.jpg"> -->
 {% if site.profile_pic %}
 <img draggable=false class="profile-picture" src="{{ site.profile_pic }}" />
 {% endif %}
@@ -12,7 +11,7 @@ layout: default
 
 Hi! I am Rar,
 This is an edit of the [researcher](https://github.com/bk2dcradle/researcher) jekyll theme template,
-that implement more features.
+that implements more features.
 
 ## Research Interest
 
@@ -51,9 +50,18 @@ Here is a blockquote
 
 this is a codeblock
 
-```python
-def cb():
-	print('Hello World!')
+```cpp
+#include <windows.h>
+
+int main() {
+    MessageBoxW(
+        NULL,
+        L"Hello World",
+        L"Fun Times",
+        MB_ICONINFORMATION | MB_OKCANCEL
+    );
+    return 0;
+}
 ```
 
 ## References

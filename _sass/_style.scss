@@ -8,13 +8,17 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: $bg;
-    color: $text;
     scroll-behavior: smooth;
+}
+@media(prefers-color-scheme: dark) {
+    body {
+	background-color: $bg;
+    }
 }
 body {
     margin: 0;
-    font-family: "Poppins", "Inconsolata";
+    font-family: "Poppins", "sans-serif", "Inconsolata";
+    color: $text;
     height: 100%;
 }
 a {
@@ -22,7 +26,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: $accent;
 }
 hr {
     border: 0;
@@ -129,3 +132,4 @@ hr {
 
 @import "typography";
 @import "tables";
+@import "syntax";
