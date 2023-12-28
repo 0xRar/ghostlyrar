@@ -1,7 +1,7 @@
 @import "vars";
 
 .content {
-    * {
+    p, .highlight {
         font-size: 1.1rem;
     }
     .posts > a {
@@ -27,7 +27,7 @@
         margin-bottom: 5px;
     }
     ul > li {
-        margin: 5px 0 5px 0;
+        margin: 20px 0 5px 0;
     }
     ul {
         padding: 0 20px 0 20px;;
