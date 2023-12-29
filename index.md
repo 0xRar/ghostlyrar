@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About Me
+# About Me
 
 {% if site.profile_pic %}
 <img draggable=false class="profile-picture" src="{{ site.profile_pic }}" />
@@ -10,8 +10,8 @@ layout: default
 
 
 Hi! I am Rar,
-This is an edit of the [researcher](https://github.com/bk2dcradle/researcher) jekyll theme template,
-that implements more features.
+This is a modified version of the [researcher](https://github.com/bk2dcradle/researcher) jekyll theme template,
+that implements more features and prefers the edark mode color scheme.
 
 ## Research Interest
 
