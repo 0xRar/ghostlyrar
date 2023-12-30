@@ -11,7 +11,7 @@ layout: default
 
 Hi! I am Rar,
 This is a modified version of the [researcher](https://github.com/bk2dcradle/researcher) jekyll theme template,
-that implements more features and prefers the edark mode color scheme.
+that implements more features and prefers the dark color scheme.
 
 ## Research Interest
 
