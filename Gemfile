@@ -5,3 +5,6 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 
 gem "rouge", "~> 4.2"
+
+# for avoiding polling for changes
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
