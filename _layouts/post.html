@@ -4,8 +4,13 @@ layout: default
 
 <div class="container content"> 
     <center>
-        <p>Estimated Read Time: {{ page.content | reading_time }}</p>
         <h1>{{ page.title }}</h1>
+        <div class="post-info">
+            <li>Written By <a href="{{ site.footer_url }}" target="_blank">{{ page.author }}</a></li>
+            <li>Published on {{ page.date | date: "%B %-d, %Y" }}</li>
+            <li>Estimated Read Time: {{ page.content | reading_time }}</li>
+            <li>{{ page.tags }}</li>
+        </div>
     </center>
     {{ content }}
 </div>
