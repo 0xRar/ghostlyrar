@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="container content"> 
-    <center>
-        <h1>{{ page.title }}</h1>
-        <div class="post-info">
-            <li>Written By <a href="{{ site.footer_url }}" target="_blank">{{ page.author }}</a></li>
-            <li>Published on {{ page.date | date: "%B %-d, %Y" }}</li>
-            <li>Estimated Read Time: {{ page.content | reading_time }}</li>
-            <li>{{ page.tags }}</li>
-        </div>
-    </center>
-    {{ content }}
+  <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-info">
+        <li>
+          <p>
+            Published on {{ page.date | date: "%B %-d, %y" }} 
+            By <a href="{{ site.footer_url }}" target="_blank">{{ page.author }}</a>
+          </p>
+        </li>
+      </div>
+  {{ content }}
 </div>
