@@ -2,8 +2,7 @@
 
 .content {
     p, .highlight {
-        font-size: 1.1rem;
-        text-wrap: pretty;
+        font-size: 1.125rem;
     }
     .posts > a {
         font-size: 1.5rem;
@@ -59,6 +58,18 @@
     }
     pre {
         overflow: auto;
+
+        /* 
+        If block line-numbers(_config.yml) is false uncomment for a more 
+        chill round look for the codeblock
+        */
+        // overflow-x: auto;
+        // white-space: pre;
+        // padding: 0.75rem 1rem;
+        // border: 1px solid rgba(17, 27, 46, 0.2);
+        // border-color: rgba(131, 116, 95, 0.2);
+        // border-radius: 8px;
+        // background-color: #0a0a0a;
     }
     p small {
         color: $text;
