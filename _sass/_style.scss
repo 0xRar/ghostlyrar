@@ -111,6 +111,7 @@ hr {
 }
 
 .post-title {
+    margin-bottom: -10px;
     border-bottom: solid #303030 4px;
 }
 
@@ -148,7 +149,7 @@ hr {
 
 @media (max-width: 650px) {
     .container {
-        max-width: 83%;
+        max-width: 100%;
     }
     .navbar-ul {
         margin-top: 5px;
