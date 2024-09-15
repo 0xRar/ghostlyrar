@@ -7,10 +7,16 @@ layout: default
       <div class="post-info">
         <li>
           <p>
-            Published on {{ page.date | date: "%B %-d, %Y" }} 
+            Published: {{ page.date | date: "%B %-d, %Y" }} 
             By <a href="{{ site.footer_url }}" target="_blank">{{ page.author }}</a>
           </p>
         </li>
+      </div>
+      <div id="table-of-content">
+        <!-- <h2>Table of Content:</h2> -->
+        <div id="toc-content">
+          {% toc %}
+        </div>
       </div>
   {{ content }}
 </div>

@@ -3,6 +3,7 @@ title: "Syntax Highlighting"
 layout: post
 description: "This blog post will show the syntax highlighting in codeblocks"
 author: "0xRar"
+toc: true
 ---
 
 And remember the syntax highlighting theme can always be changed.
