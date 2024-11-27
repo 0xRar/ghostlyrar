@@ -7,7 +7,6 @@ is_contact: true
 # Contact
 
 * Email: [foo@xyz.com](mailto:foo@xyz.com)
-
 * Phone: [+91-123123](tel:+91-123123)
 
 ---
@@ -23,6 +22,7 @@ is_contact: true
 ---
 
 ## Social
+You can find me on socials here: 
 
 1. [Facebook](#)
 2. [Twitter](#)
