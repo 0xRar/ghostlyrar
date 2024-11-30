@@ -11,3 +11,6 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 # posts table of content
 gem 'jekyll-toc'
+
+# rss feeds
+gem 'jekyll-feed'

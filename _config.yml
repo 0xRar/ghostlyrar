@@ -53,6 +53,7 @@ kramdown:
 
 plugins:
   - jekyll-toc
+  - jekyll-feed
 
 toc:
   min_level: 1
@@ -64,3 +65,6 @@ toc:
   sublist_class: ''
   item_class: toc-entry
   item_prefix: toc-
+
+feed:
+  path: /blog/feed.atom
