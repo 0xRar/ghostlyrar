@@ -46,8 +46,8 @@ adding a picture: `profile_pic: "./images/my_pic.png"`
 Edit the title in the following files:
 ```
 .
-|__> blog.md
-|__> contact.md
+├── blog.md
+└── contact.md
 ```
 
 
