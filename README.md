@@ -9,9 +9,10 @@ theme.
 ## New With ghostlyrar
 
 - dark color scheme
-- blog
 - table of contents
 - synatx highlighting
+- rss feed support
+- blog
 
 
 ## Installation / Usage
