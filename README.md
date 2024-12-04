@@ -8,11 +8,11 @@ theme.
 
 ## New With ghostlyrar
 
-- dark color scheme
-- table of contents
-- synatx highlighting
-- rss feed support
-- blog
+- [x] dark color scheme
+- [x] table of contents
+- [x] synatx highlighting
+- [x] rss feed support
+- [x] blog
 
 
 ## Installation / Usage
