@@ -12,13 +12,17 @@ layout: default
           </p>
         </li>
       </div>
-      <details id="table-of-contents">
-        <summary>
-          <h2>Table of Contents(Click to view):</h2>
-        </summary>
-        <div id="toc-content">
-          {% toc %}
-        </div>
-      </details>
+
+      {% if page.toc %}
+        <details id="table-of-contents">
+          <summary>
+            <h2>Table of Contents(Click to view):</h2>
+          </summary>
+          <div id="toc-content">
+            {% toc %}
+          </div>
+        </details>
+      {% endif %}
+  <!-- Post Content -->
   {{ content }}
 </div>
