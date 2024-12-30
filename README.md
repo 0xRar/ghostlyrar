@@ -6,6 +6,8 @@ implements more features and prefers the dark color scheme.
 this theme template focuses more on being simple, blog focused and a light weight
 theme.
 
+<img height="400px" src="https://github.com/user-attachments/assets/30f3eb30-f9b8-4a10-a618-703fe08da386">
+
 ## New With ghostlyrar
 
 - [x] dark color scheme
